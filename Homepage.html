@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="max-width=device-width, initial-scale=1.0">
+<style>
+.loader {
+  position: relative;
+  top: 300px;
+  right: -735px;
+  border: 6px solid lightgrey;
+  border-radius: 50%;
+  border-top: 6px solid black;
+  width: 45px;
+  height: 45px;
+  
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body>
+
+<div class="loader"></div>
+
+</body>
+</html>
